@@ -1,0 +1,132 @@
+
+
+#MenuMobile {
+    z-index: 1;
+    width:100%; 
+    overflow-y: hidden; 
+    position:absolute;
+    text-align:center;
+  height:0%;
+    left:0%;
+    margin-top:15vw;
+    margin-left:0%;
+    background-color:rgb(8, 8, 8);
+    transition:0.5s;
+    font-size:6vw;
+
+
+    }
+
+    #HrMenuLateral1{
+      position:center;
+      width:91.5vw;
+      margin-top: 3.443526170798898vw;
+    }
+    #HrMenuLateral{
+      position:center;
+      width:91.5vw;
+    }
+    
+    #MenuMobile a {
+    padding-top: 0.5856515373352855vw;
+    padding-right:0.5856515373352855vw;
+    padding-bottom:0.5856515373352855vw;
+    padding-left:-0.21961932650073207vw;
+    text-decoration:none;
+    color:rgb(246, 246, 246);
+    }
+    
+    #MenuMobile a:hover 
+    { 
+    transition-duration:0.20s;
+    transition-delay:0.2s;
+    transition-timing-function:ease;
+    transition-property:all;
+    border-radius:0.7320644216691069vw;
+    background-color:transparent;
+    color:rgb(220,20,20);
+    }
+    
+    #MenuMobile ul 
+    {
+    list-style:none;
+    margin-left:-0%;
+    left:0%;
+    padding-left: 0%;
+    
+    }
+    #MenuMobile hr{
+      margin-left: 3.71900826446281vw;
+    }
+    
+    .closebtn 
+    {
+    margin-top:-15vw;
+font-size:10vw;
+ 
+    }
+    
+    #botao-hamburg
+    {
+        color:rgb(246, 246, 246);
+    font-size:12vw;
+    cursor:pointer;
+    position:absolute;
+    visibility:visible;
+    }
+   *{
+    scroll-behavior: smooth;
+   }
+   .logoMobile{
+   
+    font-size:10vw;
+    margin-top:-5vw;
+    text-align: center;
+
+}
+@media only screen and (min-width:700px)
+{
+
+    #botao-hamburg
+{
+    visibility:hidden;
+}   
+
+}    
+
+@media only screen and (max-width:699px)
+{
+
+    #HeaderHorinzontal{
+        margin-top:0.9vw;
+        background-color: rgba(34, 34, 34, 0.874);
+        height:15vw;
+    }
+    #botao-hamburg
+{
+    visibility:visible;
+    margin-top:-16vw;
+    margin-left:43vw;
+}
+
+}
+
+    @media only screen and (max-height:450px) 
+{
+
+
+#MenuMobile ul
+{
+    padding:13px;
+    margin-left:0%;
+    
+}
+
+#MenuMobile a 
+{
+
+    font-size:1vw;
+    padding-right:2px;
+}
+
+}
